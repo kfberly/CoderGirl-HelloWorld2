@@ -7,12 +7,9 @@ namespace HelloWorld2
         public static void Main()
         {
             Console.Write("Please enter your name: ");
-
-            // Store a name the user enters to a variable.
-
-            // Output - Hello (name)!
-
-            Console.ReadLine();
+            string name = Console.Readline(); 
+            Console.Write("Hello ", name);           
+            Console.ReadLine(); 
         }
     }
 }
